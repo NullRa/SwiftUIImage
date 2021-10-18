@@ -12,6 +12,7 @@ struct ContentView: View {
         Image("iphoneWallPaper")
             .resizable()
             .aspectRatio(contentMode: .fill)
+            .frame(width: 300)
     }
 }
 
