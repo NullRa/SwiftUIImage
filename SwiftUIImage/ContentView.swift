@@ -13,8 +13,7 @@ struct ContentView: View {
             .resizable()
             .aspectRatio(contentMode: .fit)
             .overlay(
-                Rectangle()
-                    .foregroundColor(.white)
+                Color.white
                     .opacity(0.4)
             )
     }
