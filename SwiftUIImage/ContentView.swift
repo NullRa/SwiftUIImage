@@ -13,7 +13,7 @@ struct ContentView: View {
             .resizable()
             .aspectRatio(contentMode: .fill)
             .frame(width: 300)
-            .clipped()
+            .clipShape(Circle())
     }
 }
 
