@@ -12,9 +12,17 @@ struct ContentView: View {
         Image("iphoneWallPaper")
             .resizable()
             .aspectRatio(contentMode: .fit)
+            .frame(width: 300)
             .overlay(
                 Color.white
                     .opacity(0.4)
+                    .overlay(
+                        Text("Wall Paper")
+                            .font(.largeTitle)
+                            .fontWeight(.black)
+                            .foregroundColor(.white)
+                            .frame(width: 200)
+                    )
             )
     }
 }
