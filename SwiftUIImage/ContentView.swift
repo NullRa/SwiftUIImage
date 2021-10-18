@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         Image("iphoneWallPaper")
             .resizable()
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
