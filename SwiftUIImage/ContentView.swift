@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         Image("iphoneWallPaper")
             .resizable()
-            .aspectRatio(contentMode: .fit)
+            .aspectRatio(contentMode: .fill)
     }
 }
 
