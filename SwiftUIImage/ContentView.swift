@@ -11,14 +11,18 @@ struct ContentView: View {
     var body: some View {
         Image("iphoneWallPaper")
             .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 300)
-            .clipShape(Circle())
+            .aspectRatio(contentMode: .fit)
             .overlay(
-                Image(systemName: "heart.fill")
-                    .font(.system(size: 50))
+                Text("1. Every Cloudy Has A Sliver Line.\n2. Every Cloudy Has A Sliver Line.\n3. Every Cloudy Has A Sliver Line.\n4. Every Cloudy Has A Sliver Line.\n5. Every Cloudy Has A Sliver Line.\n6. Every Cloudy Has A Sliver Line.")
                     .foregroundColor(.white)
-                    .opacity(0.5)
+                    .fontWeight(.heavy)
+                    .font(.system(.headline, design: .rounded))
+                    .padding()
+                    .background(Color.gray)
+                    .cornerRadius(50)
+                    .opacity(0.8)
+                    .padding(),
+                alignment: .top
             )
     }
 }
