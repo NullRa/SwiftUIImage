@@ -7,7 +7,9 @@
 ![](https://github.com/NullRa/SwiftUIImage/blob/main/SwiftUI_Png/1.png?raw=true)
 
 若要顯示系統圖片，可以初始化一個 Image 視圖，加上systemName參數
-Image(systemName: "cloud.heavyrain") 如果想瀏覽系統圖片有哪些可以點下列連結到apple官網安裝圖片庫做查閱 https://developer.apple.com/sf-symbols/
+Image(systemName: "cloud.heavyrain")
+如果想瀏覽系統圖片有哪些可以點下列連結到apple官網安裝圖片庫做查閱
+https://developer.apple.com/sf-symbols/
 ![](https://github.com/NullRa/SwiftUIImage/blob/main/SwiftUI_Png/2.png?raw=true)
 
 若要使用自己的圖片，先將圖片拖到Assets.xcassets
@@ -26,7 +28,8 @@ Image(“iphoneWallPaper”)
 
 Aspect Fit 與 Aspect Fill
 之前一直沒認真搞懂這個概念
-這個練習做了第三次來釐清一下.. aspect就當作是維持*圖片比例*
+這個練習做了第三次來釐清一下..
+aspect就當作是維持*圖片比例*
 Fit 表示在安全範圍內
 Fill表示忽略安全範圍
 合起來就是
